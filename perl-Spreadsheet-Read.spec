@@ -1,11 +1,11 @@
 %define upstream_name    Spreadsheet-Read
-%define upstream_version 0.38
+%define upstream_version 0.40
 
 %define _requires_exceptions /pro/bin/perl
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Transparent read the data from a spreadsheet
 License:    GPL+ or Artistic
