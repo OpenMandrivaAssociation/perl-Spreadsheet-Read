@@ -1,5 +1,5 @@
 %define upstream_name    Spreadsheet-Read
-%define upstream_version 0.40
+%define upstream_version 0.41
 
 %define _requires_exceptions /pro/bin/perl
 
