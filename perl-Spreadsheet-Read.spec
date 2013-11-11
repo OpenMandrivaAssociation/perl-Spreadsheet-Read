@@ -1,5 +1,5 @@
 %define upstream_name    Spreadsheet-Read
-%define upstream_version 0.49
+%define upstream_version 0.51
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq '/pro/bin/perl'
@@ -8,14 +8,14 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.49
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Transparent read the data from a spreadsheet
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Spreadsheet/Spreadsheet-Read-0.49.tgz
+Source0:	http://www.cpan.org/modules/by-module/Spreadsheet/Spreadsheet-Read-%{upstream_version}.tgz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -87,4 +87,5 @@ yes | perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Mar 16 2010 cpan2dist 0.38-1mdv
 - initial mdv release, generated with cpan2dist
+
 
