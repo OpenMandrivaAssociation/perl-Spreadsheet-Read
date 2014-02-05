@@ -1,5 +1,5 @@
 %define upstream_name    Spreadsheet-Read
-%define upstream_version 0.51
+%define upstream_version 0.54
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq '/pro/bin/perl'
@@ -87,5 +87,6 @@ yes | perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Mar 16 2010 cpan2dist 0.38-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
