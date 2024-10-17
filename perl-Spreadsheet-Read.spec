@@ -14,7 +14,7 @@ Release:	3
 Summary:	Transparent read the data from a spreadsheet
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Spreadsheet/Spreadsheet-Read-%{upstream_version}.tgz
 
 BuildRequires:	perl-devel
